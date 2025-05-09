@@ -1,0 +1,55 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.contenido {
+  font-style: oblique;
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li a {
+  text-decoration: solid;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: #d35400;
+}
+
+.pizza-list {
+  list-style: none;
+  display: contents;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.pizza-list li a {
+  text-decoration: none;
+  color: tomato;
+  font-weight: bold;
+}
+
+.img-napolitana {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.img-cuatro-quesos {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
